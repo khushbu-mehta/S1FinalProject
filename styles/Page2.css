@@ -59,9 +59,9 @@ svg {
 
   #snow {
     background: none;
-    background-image: url("banana.png"),
-      url("banana1.png"),
-      url("banana2.png");
+    background-image: url("../images/banana.png"),
+      url("../images/banana1.png"),
+      url("../images/banana2.png");
     height: 100%;
     left: 0;
     position: absolute;
@@ -79,3 +79,50 @@ svg {
       background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;
     }
   }
+
+.findme {
+  margin: 0;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+    z-index: 100000;
+}
+
+.tile > img {
+  width: 100%;
+  height: auto;
+}
+
+.tile {
+/*  background-color: #999;*/
+  margin: 20px;
+}
+
+/*
+p, h5 {
+  padding: 30px;
+}
+
+.tile:nth-child(4) {
+  padding: 50px;
+  background-color: blue;
+}
+
+.tile:nth-child(3n) {
+  background-color: yellow;
+}
+
+.tile:has(p) {
+  background-color: red;
+}
+
+p:not(#anomaly) {
+  color: white;
+  font-weight: bold;
+}
+*/
+
+*:has(img:hover) > .tile:not(.tile:hover) {
+/*  background-color: green;*/
+  filter: blur(4px);
+}
