@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html, body{
+  height: 100%;
+  font-weight: 100;
+}
+
+body{
+  background: rgba(255, 232, 104, 0.67);
+  font-family: Arial;
+  margin-top: -7%;
+}
+
+svg {
+    display: block;
+    font: 6em 'Montserrat';
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 3px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #4D163D;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #840037;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #BD0034;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #BD0034;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #fd4931;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+
+#info{
+  font: 1.2em 'Montserrat';
+  margin-left: 35%;
+}
+
+.findme {
+  margin: 0;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+  align-items: center;
+}
+
+.tile > img {
+  width: 100%;
+  height: auto;
+}
+
+.tile {
+  margin: 10px;
+}
+
+*:has(img:hover) > .tile:not(.tile:hover) {
+  filter: blur(4px);
+}
+
+.button {
+  width: 10%;
+  height: auto;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+.button1 {
+  width: 10%;
+  height: auto;
+  margin-top: 10%;
+  margin-left: 60%;
+}
