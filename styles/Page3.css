@@ -102,3 +102,12 @@ h2 {
     width: 100%;
     background-size: cover;
 }
+
+.button {
+    position: absolute;
+    width: 10%;
+    height: auto;
+    margin-top: 52%;
+    margin-left: -40%;
+  }
+  

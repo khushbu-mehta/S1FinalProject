@@ -119,7 +119,6 @@ margin-top: 5%;
   overflow: hidden;
   -webkit-clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-  -webkit-shape-outside: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
 .grid--item:before {
   display: block;
@@ -156,7 +155,7 @@ margin-top: 5%;
   transition: opacity 0.5s;
 }
 .img:before {
-  background: rgba(128, 0, 128, 0.25);
+  background: rgba(110, 106, 110, 0.8);
 }
 
 .img1:after {
@@ -168,23 +167,25 @@ margin-top: 5%;
 }
 
 .img3:after {
-  background-image : url(https://i.pinimg.com/originals/4b/35/c7/4b35c7f768fadc4c603f5b3e16629d74.gif)
+  background-image : url(https://media0.giphy.com/media/VtR7ehaGlRyPRjmEzG/200w.gif)
 }
 
 .img4:after {
-  background-image : url(https://i.pinimg.com/originals/4b/35/c7/4b35c7f768fadc4c603f5b3e16629d74.gif)
+  background-image : url(https://media1.giphy.com/media/Kbt0O5VZeofGmEaFHi/200w.gif?cid=82a1493bsll873yq331i3ntyuy6gwzcso46lvg7qn0t3f6ff&rid=200w.gif&ct=s);
+  align-self: center;
+  
 }
 
 .img5:after {
-  background-image : url(https://i.pinimg.com/originals/4b/35/c7/4b35c7f768fadc4c603f5b3e16629d74.gif)
+  background-image : url(https://media3.giphy.com/media/XlGQ2sBz4gvIAv0FVa/200w.gif)
 }
 
 .img6:after {
-  background-image : url(https://i.pinimg.com/originals/4b/35/c7/4b35c7f768fadc4c603f5b3e16629d74.gif)
+  background-image : url(https://media0.giphy.com/media/npuHP188QdL76BV7sY/giphy.gif?cid=6c09b952cjyrzy1e9qobbq62qu5y4lsfmry631bvp5deidej&rid=giphy.gif&ct=s)
 }
 
 .img7:after {
-  background-image : url(https://i.pinimg.com/originals/4b/35/c7/4b35c7f768fadc4c603f5b3e16629d74.gif)
+  background-image : url(https://media2.giphy.com/media/cCkDmohoV11WdYHkI5/200w.gif?cid=82a1493bsll873yq331i3ntyuy6gwzcso46lvg7qn0t3f6ff&rid=200w.gif&ct=s)
 }
 
 
@@ -250,4 +251,18 @@ h2:before, h2:after {
 }
 .grid--item:hover .container {
   transform: translate(-50%, -50%) scale(1);
+}
+
+.button {
+  width: 10%;
+  height: auto;
+  margin-top: 80%;
+  margin-left: -80%;
+}
+
+.button1 {
+  width: 10%;
+  height: auto;
+  margin-top: 80%;
+  margin-left: 70%;
 }

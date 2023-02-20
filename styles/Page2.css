@@ -57,35 +57,17 @@ svg {
 	100% {stroke-dashoffset: -35%;}
 }
 
-  #snow {
-    background: none;
-    background-image: url("../images/banana.png"),
-      url("../images/banana1.png"),
-      url("../images/banana2.png");
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 25%;
-    width: 100%;
-    z-index: 1;
-    animation: snow 1000s linear infinite;
-    transform: translate(0, 0);
-  }
-  @keyframes snow {
-    0% {
-      background-position: 0px 0px, 0px 0px, 0px 0px;
-    }
-    100% {
-      background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;
-    }
-  }
+#info{
+  font: 1.2em 'Montserrat';
+  margin-left: 35%;
+}
 
 .findme {
   margin: 0;
   width: 100vw;
   display: grid;
   grid-template-columns: repeat(3, 33.33%);
-    z-index: 100000;
+  align-items: center;
 }
 
 .tile > img {
@@ -94,35 +76,23 @@ svg {
 }
 
 .tile {
-/*  background-color: #999;*/
-  margin: 20px;
+  margin: 10px;
 }
-
-/*
-p, h5 {
-  padding: 30px;
-}
-
-.tile:nth-child(4) {
-  padding: 50px;
-  background-color: blue;
-}
-
-.tile:nth-child(3n) {
-  background-color: yellow;
-}
-
-.tile:has(p) {
-  background-color: red;
-}
-
-p:not(#anomaly) {
-  color: white;
-  font-weight: bold;
-}
-*/
 
 *:has(img:hover) > .tile:not(.tile:hover) {
-/*  background-color: green;*/
   filter: blur(4px);
+}
+
+.button {
+  width: 10%;
+  height: auto;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+.button1 {
+  width: 10%;
+  height: auto;
+  margin-top: 10%;
+  margin-left: 60%;
 }
