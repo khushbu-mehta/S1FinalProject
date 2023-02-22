@@ -30,6 +30,20 @@ body {
   margin-left: 15%;
 }
 
+#webring {
+  position: absolute;
+  width: 3%;
+  height: 3%;
+  margin-left: 95%;
+  box-shadow: 0.5px 0.5px 15px #cab6d4;
+}
+
+#webring:hover {
+	content : url(https://cdn.pixabay.com/photo/2016/03/31/23/07/artist-1297400_1280.png);
+	max-width: 3%;
+	height: auto;
+}
+
 .projecttitle {
 	position: absolute;
     top: -10vw;
